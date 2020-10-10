@@ -1,0 +1,147 @@
+#title{
+    background-color: #ff4c68;
+    color: dimgrey;
+}
+#hea{ 
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.3rem;
+    line-height: 1.5;
+    margin: 2%;
+}
+.testimonials-text{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    color:lightcyan;
+}
+h3{
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Roboto Slab', serif;
+   
+}
+p{
+    color: darkred;
+}
+.features-para{
+    font-size: 1.25rem;
+    color:lightgray;
+    line-height: 1.25;
+    margin-top: 10%;
+}
+#cont{
+    padding: 3% 15% 5%;
+}
+.bod{
+    
+    font-family: 'Roboto Slab', serif;
+   
+}
+.navbar{
+    padding:  0 0 4.5rem;
+}
+.navbrand{
+    font-family: 'Roboto Slab', serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.2rem;
+}
+.download-but{
+    margin: 2%;
+}
+.tittle-img{
+    width: 50%;
+    transform:rotate(25deg);
+    position: absolute;
+    right:25%;
+   
+}
+#features{
+    padding: 5% 10%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+.features-dv{
+ padding: 5%;
+ text-align: center;
+}
+.icon{
+  color: rgb(250, 95, 6);
+    margin-bottom: 5% ;
+}
+.icon:hover{
+    color: #ff4c68;
+}
+#testimonials{
+    background-color:rgb(169, 155, 175);
+   text-align: center;
+  
+}
+.carousel-inner{
+    padding: 6% 12%;
+}
+.dog-image{
+    width: 15%;
+    border-radius: 50%;
+   margin: 5%;
+}
+#press{
+    background-color:rgb(169, 155, 175);
+    padding-bottom: 5%;
+    text-align: center;
+}  
+.press-image{
+    width: 15%;
+    margin: 1% 2% 0 1%;
+}
+#pricing{
+    padding: 5% 10%;
+    background-color: lightgoldenrodyellow;
+}
+.pricing-h3{
+    font-family: 'Montserrat', sans-serif;
+   color: darkcyan;
+}
+.pricingcard{
+    padding: 3% 1%;
+    text-align: center;
+}
+#cta{
+    background-color: rgb(247, 202, 202);
+    padding: 7% 15%;
+    text-align: center;
+}
+#footer{
+    background-color: grey;
+    text-align: center;
+    padding: 5% 10%;
+}
+.footer-h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.footer-but{
+  margin: 2%;
+}
+.footer-icon{
+    margin: 15px;
+    color: indigo;
+}
+
+@media (max-width:1020px){
+    #tittle{
+        text-align: center;
+    }
+    .tittle-img{
+        position: static;
+        transform: rotate(0);
+    }
+}
